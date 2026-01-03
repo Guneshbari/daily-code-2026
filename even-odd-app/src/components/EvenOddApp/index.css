@@ -1,6 +1,6 @@
 .app-container {
   background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,6 +26,7 @@
   padding: 10px 20px;
   cursor: pointer;
   margin-top: 20px;
+  outline: none;
 }
 
 .note {
