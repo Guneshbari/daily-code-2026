@@ -1,0 +1,233 @@
+/* ================= RESET ================= */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #ececec;
+}
+
+/* ================= APP ================= */
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================= HEADER ================= */
+
+.header {
+  background-color: #3367d6;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.app-logo {
+  height: 32px;
+  flex-shrink: 0;
+}
+
+/* ================= SEARCH ================= */
+
+.search-container {
+  background-color: #2850a7;
+  display: flex;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 6px;
+  flex: 1;
+  max-width: 420px;
+}
+
+.search-icon {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+}
+
+.search-input::placeholder {
+  color: #f8fafc;
+}
+
+/* ================= MAIN ================= */
+
+.history-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 32px 16px;
+}
+
+.history-card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 960px;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================= LIST ================= */
+
+.history-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================= ITEM ================= */
+
+.history-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+  gap: 16px;
+}
+
+.history-item:not(:last-child) {
+  border-bottom: 1px solid #ececec;
+}
+
+/* Time */
+.time {
+  min-width: 90px;
+  font-size: 13px;
+  color: #64748b;
+  flex-shrink: 0;
+}
+
+/* Item details */
+.item-details {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 14px;
+}
+
+/* Logo */
+.domain-logo {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+/* Text */
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.domain {
+  font-size: 13px;
+  color: #64748b;
+}
+
+/* ================= DELETE ================= */
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.delete-btn:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.delete-btn img {
+  width: 18px;
+}
+
+/* ================= EMPTY ================= */
+
+.empty-text {
+  text-align: center;
+  font-size: 16px;
+  color: #475569;
+  padding: 48px 0;
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* 🔹 Small Devices (≤ 576px) */
+@media screen and (max-width: 576px) {
+  .header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-container {
+    max-width: 100%;
+  }
+
+  .history-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .time {
+    min-width: auto;
+  }
+
+  .delete-btn {
+    align-self: flex-end;
+  }
+}
+
+/* 🔹 Tablets (577px – 768px) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .history-card {
+    padding: 18px;
+  }
+
+  .time {
+    min-width: 80px;
+  }
+}
+
+/* 🔹 Laptops (769px – 992px) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .history-card {
+    max-width: 880px;
+  }
+}
+
+/* 🔹 Large Screens (≥ 1200px) */
+@media screen and (min-width: 1200px) {
+  .history-card {
+    max-width: 1040px;
+  }
+}
+

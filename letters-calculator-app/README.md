@@ -1,75 +1,97 @@
 # Letters Calculator App
 
-A simple React application that calculates and displays the number of letters entered in an input field in real time.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript" />
+  <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3" />
+  <img src="https://img.shields.io/badge/Create%20React%20App-CRA-lightgrey?logo=createreactapp" />
+</p>
 
-This project is designed to practice **controlled inputs**, **state updates**, and **conditional rendering** in React.
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Letters%20Calculator%20App-brightgreen" />
+  <img src="https://img.shields.io/badge/Focus-Forms%20%26%20Accessibility-blue" />
+</p>
 
----
-
-## 🚀 Features
-
-- Text input to enter a phrase
-- Displays the total number of letters typed
-- Updates the count dynamically as the user types
-- Shows an initial letter count of `0`
-
----
-
-## 🧠 Concepts Used
-
-- React Class Components
-- Controlled form elements
-- State management
-- Event handling
-- Conditional rendering
-- Accessibility with labels
+A React application that counts the number of letters entered by the user in real time.
 
 ---
 
-## 📂 Project Structure
+## 📑 Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Concepts Practiced](#-concepts-practiced)
+- [Screenshots](#-screenshots)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Tech Stack](#-tech-stack)
+- [Notes](#-notes)
+- [Author](#-author)
+
+---
+
+## 📌 Overview
+
+Tracks user input and dynamically displays the total number of letters typed, starting from zero.
+
+---
+
+## ✨ Features
+
+- Real-time letter count
+- Controlled input field
+- Accessible form elements
+
+---
+
+## 🧠 Concepts Practiced
+
+- Controlled forms
+- State updates on input change
+- Accessibility basics
+
+---
+
+## 🖼️ Screenshots
+
+![Desktop View](screenshots/desktop.png)
+![Mobile View](screenshots/mobile.png)
+![Demo](screenshots/demo.gif)
+
+---
+
+## 📁 Project Structure
 
 src/
 ├── components/
 │ └── LettersCalculator/
-│ ├── index.js
-│ └── index.css
+├── App.js
+└── index.js
 
 
 ---
 
-## ▶️ Getting Started
+## 🚀 Getting Started
 
-### 1. Install Dependencies
 ```bash
 npm install
-
-2. Run the App
-
 npm start
 
-The app will run at http://localhost:3000.
-🔍 App Behavior
+🛠️ Tech Stack
 
-    On page load, the letter count is displayed as 0
+    React
 
-    As the user types in the input field, the letter count updates instantly
+    JavaScript (ES6+)
 
-    The input field is associated with a label for better accessibility
+    CSS
 
-🧪 Testing Notes
+📌 Notes
 
-    Uses a <label> element with the text "Enter the phrase"
+    Designed to satisfy testing requirements
 
-    The input field is associated with the label using htmlFor and id
+    Emphasis on clarity over features
 
-    The count text follows the exact format:
-    No.of letters: X
+👤 Author
 
-    Image includes the required alt attribute:
-    letters calculator
-
-📌 Conclusion
-
-This project demonstrates how to build a responsive, accessible input-based React component using controlled inputs and state-driven rendering.
-
-It emphasizes correctness, clarity, and adherence to testing requirements.
+Built as part of Daily Code 2026
+Maintained by Guneshbari

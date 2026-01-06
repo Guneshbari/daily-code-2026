@@ -1,86 +1,96 @@
-Google Search Suggestions App
+# Google Search Suggestions App
 
-A React application that replicates Google-style search suggestions.
-Suggestions update dynamically as the user types, and clicking on a suggestion auto-fills the search input.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript" />
+  <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3" />
+  <img src="https://img.shields.io/badge/Create%20React%20App-CRA-lightgrey?logo=createreactapp" />
+</p>
 
-This project focuses on React fundamentals, clean data flow, and component-based design.
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Google%20Search%20Suggestions%20App-brightgreen" />
+  <img src="https://img.shields.io/badge/Focus-Controlled%20Inputs%20%26%20Filtering-blue" />
+</p>
 
-✨ Features
+A Google-style search suggestions interface built with React.
 
-Displays all suggestions on initial load
+---
 
-Filters suggestions in real time as the user types
+## 📑 Contents
 
-Case-insensitive search
+- [Overview](#-overview)
+- [Features](#-features)
+- [Concepts Practiced](#-concepts-practiced)
+- [Screenshots](#-screenshots)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Tech Stack](#-tech-stack)
+- [Notes](#-notes)
+- [Author](#-author)
 
-Clicking the arrow icon fills the search input
+---
 
-Clean and responsive UI
+## 📌 Overview
 
-🧠 Concepts Practiced
+As the user types, matching suggestions are filtered and displayed in real time. Selecting a suggestion fills the search input.
 
-React class components
+---
 
-Controlled form inputs
+## ✨ Features
 
-Parent–child communication using props
+- Case-insensitive search
+- Real-time filtering
+- Click-to-fill suggestions
 
-Callback functions
+---
 
-List rendering with map and filter
+## 🧠 Concepts Practiced
 
-📁 Project Structure
+- Controlled inputs
+- List filtering
+- Callback-based updates
+
+---
+
+## 🖼️ Screenshots
+
+![Desktop View](screenshots/desktop.png)
+![Mobile View](screenshots/mobile.png)
+![Demo](screenshots/demo.gif)
+
+---
+
+## 📁 Project Structure
+
 src/
 ├── components/
-│   ├── GoogleSuggestions/
-│   │   ├── index.js
-│   │   └── index.css
-│   └── SuggestionItem/
-│       ├── index.js
-│       └── index.css
+│ ├── GoogleSuggestions/
+│ └── SuggestionItem/
 ├── App.js
 └── index.js
 
-🚀 Getting Started
-Install dependencies
+
+---
+
+## 🚀 Getting Started
+
+```bash
 npm install
-
-Start the app
 npm start
-
-
-The app runs at http://localhost:3000
-
-🧩 Component Overview
-GoogleSuggestions
-
-Maintains the search input state
-
-Filters the suggestions list
-
-Passes callback functions to child components
-
-SuggestionItem
-
-Displays individual suggestions
-
-Updates the search input when the arrow is clicked
 
 🛠️ Tech Stack
 
-React (Create React App)
+    React
 
-JavaScript (ES6+)
+    JavaScript (ES6+)
 
-CSS
+    CSS
 
 📌 Notes
 
-Bootstrapped with Create React App
+    Designed to satisfy strict test conditions
 
-Folder structure and naming are important for imports and tests
-
-Focused on clarity and correct React patterns
+    Predictable data flow
 
 👤 Author
 

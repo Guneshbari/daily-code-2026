@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Cash Withdrawal App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript" />
+  <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3" />
+  <img src="https://img.shields.io/badge/Create%20React%20App-CRA-lightgrey?logo=createreactapp" />
+</p>
 
-## Available Scripts
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Cash%20Withdrawal%20App-brightgreen" />
+  <img src="https://img.shields.io/badge/Focus-Props%20%26%20Callbacks-blue" />
+</p>
 
-In the project directory, you can run:
+A React application simulating a basic ATM withdrawal interface.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📑 Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Overview](#-overview)
+- [Features](#-features)
+- [Concepts Practiced](#-concepts-practiced)
+- [Screenshots](#-screenshots)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Tech Stack](#-tech-stack)
+- [Notes](#-notes)
+- [Author](#-author)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📌 Overview
 
-### `npm run build`
+The Cash Withdrawal App displays a fixed balance and allows users to deduct money using predefined denominations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Initial balance of 2000
+- Predefined withdrawal buttons
+- Real-time balance updates
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧠 Concepts Practiced
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Parent–child communication
+- Callback functions
+- Immutable state updates
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🖼️ Screenshots
 
-## Learn More
+![Desktop View](screenshots/desktop.png)
+![Mobile View](screenshots/mobile.png)
+![Demo](screenshots/demo.gif)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Project Structure
 
-### Code Splitting
+src/
+├── components/
+│ ├── CashWithdrawal/
+│ └── DenominationItem/
+├── App.js
+└── index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🚀 Getting Started
 
-### Making a Progressive Web App
+```bash
+npm install
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🛠️ Tech Stack
 
-### Advanced Configuration
+    React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+    JavaScript (ES6+)
 
-### Deployment
+    CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📌 Notes
 
-### `npm run build` fails to minify
+    State is owned by the parent
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Children communicate intent only
+
+👤 Author
+
+Built as part of Daily Code 2026
+Maintained by Guneshbari
