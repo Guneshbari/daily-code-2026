@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# Counter App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-blue?logo=react" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript" />
+  <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3" />
+  <img src="https://img.shields.io/badge/Create%20React%20App-CRA-lightgrey?logo=createreactapp" />
+</p>
 
-## Available Scripts
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Counter%20App-brightgreen" />
+  <img src="https://img.shields.io/badge/Focus-State%20Management-blue" />
+</p>
 
-In the project directory, you can run:
+A simple React application that maintains and updates a numeric counter based on user interactions.
 
-### `npm start`
+Built as part of **Daily Code 2026**, focusing on state updates, event handling, and clean component structure.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📑 Contents
 
-### `npm test`
+- [Overview](#-overview)
+- [Features](#-features)
+- [Concepts Practiced](#-concepts-practiced)
+- [Screenshots](#-screenshots)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Tech Stack](#-tech-stack)
+- [Notes](#-notes)
+- [Author](#-author)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📌 Overview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Counter App displays a numeric value that can be incremented or modified through user interaction.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project is intentionally minimal and designed to reinforce fundamental React concepts such as state management and event-driven UI updates.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ✨ Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Displays a numeric counter
+- Updates count based on user actions
+- Instant UI updates on state change
+- Simple and focused user interface
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧠 Concepts Practiced
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React state management
+- Event handling
+- Component rendering
+- Unidirectional data flow
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🖼️ Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Desktop View](screenshots/desktop.png)
+![Mobile View](screenshots/mobile.png)
+![Demo](screenshots/demo.gif)
 
-### Code Splitting
+> Add images to the `screenshots/` directory and they will render automatically on GitHub.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+src/
+├── components/
+│ └── Counter/
+├── App.js
+└── index.js
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🚀 Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Install dependencies
+```bash
+npm install
 
-### Deployment
+Start the development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm start
 
-### `npm run build` fails to minify
+Runs at: http://localhost:3000
+🛠️ Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    React (Create React App)
+
+    JavaScript (ES6+)
+
+    CSS
+
+    Testing Library
+
+📌 Notes
+
+    Designed to reinforce core React fundamentals
+
+    Focused on clarity and correctness
+
+    Suitable as a learning reference for state-driven UI logic
+
+👤 Author
+
+Built as part of Daily Code 2026
+Maintained by Guneshbari
