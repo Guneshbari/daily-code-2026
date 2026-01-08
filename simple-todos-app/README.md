@@ -1,7 +1,7 @@
 # Browser History App
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-18-blue?logo=react" />
+  <img src="https://img.shields.io/badge/React-19-blue?logo=react" />
   <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript" />
   <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3" />
   <img src="https://img.shields.io/badge/Create%20React%20App-CRA-lightgrey?logo=createreactapp" />
@@ -9,12 +9,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Project-Browser%20History%20App-brightgreen" />
-  <img src="https://img.shields.io/badge/Focus-Search%20%26%20List%20Management-blue" />
+  <img src="https://img.shields.io/badge/Focus-Search%20%26%20Delete%20Operations-blue" />
 </p>
 
-A React application that displays a list of browser history items, allows users to search through them, and delete individual entries.
+A React application that displays browser history items, supports searching through them, and allows deleting individual entries.
 
-Built as part of **Daily Code 2026**, focusing on list manipulation, controlled inputs, and clean state updates.
+Built as part of **Daily Code 2026**, focusing on list manipulation, controlled inputs, and predictable state updates.
 
 ---
 
@@ -34,20 +34,20 @@ Built as part of **Daily Code 2026**, focusing on list manipulation, controlled 
 
 ## 📌 Overview
 
-The Browser History App renders a list of visited websites and allows users to filter the history using a search input.  
-Each history item can be removed individually, updating the list in real time.
+The Browser History App renders a list of visited websites and allows users to filter the list using a search input.  
+Each history item can be deleted individually, with the UI updating instantly.
 
-The project emphasizes predictable state management and list-based UI patterns in React.
+This project reinforces correct list handling patterns in React.
 
 ---
 
 ## ✨ Features
 
 - Displays browser history items on initial load
-- Search history entries using a case-insensitive input
-- Delete individual history items
+- Case-insensitive search functionality
+- Delete individual history entries
 - Real-time UI updates
-- Simple and readable layout
+- Clean and readable interface
 
 ---
 
@@ -56,7 +56,7 @@ The project emphasizes predictable state management and list-based UI patterns i
 - Controlled input elements
 - Array filtering and deletion
 - List rendering with unique keys
-- Parent–child communication using props
+- Parent–child communication via props
 - Callback-based state updates
 
 ---
@@ -100,13 +100,17 @@ Runs at: http://localhost:3000
 
     CSS
 
+    Testing Library
+
 📌 Notes
 
     State updates are handled immutably
 
-    Search and delete operations are derived from state
+    Search and delete logic is derived from state
 
-    Focused on correctness and clean data flow
+    Designed to meet strict testing requirements
+
+    Focused on correctness and clarity
 
 👤 Author
 

@@ -64,8 +64,6 @@ This project is intentionally minimal and designed to reinforce fundamental Reac
 ![Mobile View](screenshots/mobile.png)
 ![Demo](screenshots/demo.gif)
 
-> Add images to the `screenshots/` directory and they will render automatically on GitHub.
-
 ---
 
 ## 📁 Project Structure

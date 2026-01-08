@@ -1,4 +1,4 @@
-# Destination Search App
+# Fruits Counter App
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-19-blue?logo=react" />
@@ -8,13 +8,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-Destination%20Search%20App-brightgreen" />
-  <img src="https://img.shields.io/badge/Focus-Search%20%26%20Filtering-blue" />
+  <img src="https://img.shields.io/badge/Project-Fruits%20Counter%20App-brightgreen" />
+  <img src="https://img.shields.io/badge/Focus-State%20Updates%20%26%20Events-blue" />
 </p>
 
-A React application that allows users to search and filter destinations dynamically based on input text.
+A React application that tracks and updates the count of different fruits based on user interaction.
 
-Built as part of **Daily Code 2026**, focusing on list filtering, controlled inputs, and clean component composition.
+Built as part of **Daily Code 2026**, focusing on state management, event handling, and clean component composition.
 
 ---
 
@@ -34,29 +34,27 @@ Built as part of **Daily Code 2026**, focusing on list filtering, controlled inp
 
 ## 📌 Overview
 
-The Destination Search App displays a list of destinations and allows users to filter them in real time using a search input.
+The Fruits Counter App displays counters for different fruits and allows users to increment the count by interacting with buttons.
 
-The filtering is case-insensitive and updates instantly as the user types, reinforcing predictable state-driven UI behavior in React.
+This project reinforces predictable state updates and event-driven UI behavior in React.
 
 ---
 
 ## ✨ Features
 
-- Displays all destinations on initial load
-- Real-time search filtering
-- Case-insensitive matching
-- Clean, responsive layout
-- Simple and focused UI
+- Displays fruit counters
+- Increment fruit count on button click
+- Real-time UI updates
+- Simple and focused interface
 
 ---
 
 ## 🧠 Concepts Practiced
 
-- Controlled input elements
-- Array filtering with `filter`
-- List rendering with `map`
-- Parent–child component structure
-- Props-based data flow
+- React state management
+- Event handling
+- Component-based architecture
+- Unidirectional data flow
 
 ---
 
@@ -66,14 +64,15 @@ The filtering is case-insensitive and updates instantly as the user types, reinf
 ![Mobile View](screenshots/mobile.png)
 ![Demo](screenshots/demo.gif)
 
+> Add images to the `screenshots/` directory and they will render automatically on GitHub.
+
 ---
 
 ## 📁 Project Structure
 
 src/
 ├── components/
-│ ├── DestinationSearch/
-│ └── DestinationItem/
+│ └── FruitsCounter/
 ├── App.js
 └── index.js
 
@@ -99,17 +98,18 @@ Runs at: http://localhost:3000
 
     CSS
 
-    Testing Library (for component testing)
+    Testing Library
 
 📌 Notes
 
-    Folder names and structure must match test expectations
+    Focused on clean state updates
 
-    Emphasis on clarity and correctness over visual complexity
+    Designed to meet strict testing requirements
 
-    Designed to reinforce search-based UI patterns
+    Prioritizes clarity over feature complexity
 
 👤 Author
 
 Built as part of Daily Code 2026
 Maintained by Guneshbari
+

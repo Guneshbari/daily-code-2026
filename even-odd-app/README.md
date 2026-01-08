@@ -61,6 +61,7 @@ The goal is to practice clean state management and derived UI logic in React.
 ![Desktop View](screenshots/desktop.png)
 ![Mobile View](screenshots/mobile.png)
 ![Demo](screenshots/demo.gif)
+
 ---
 
 ## 📁 Project Structure
