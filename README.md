@@ -1,145 +1,227 @@
-Daily Code 2026
+# Daily Code 2026
 
-A year-long commitment to daily coding practice and continuous improvement.
-This repository contains small, focused projects built consistently throughout 2026 to strengthen fundamentals, tooling fluency, and code quality.
+A year-long commitment to **daily coding practice and continuous improvement**.
 
-The goal is consistency over perfection.
+This repository contains small, focused React-based projects built consistently throughout 2026 to strengthen **fundamentals, tooling fluency, and code quality**.
 
-📌 Purpose
+The goal is simple:
 
-Build the habit of coding every day
+> **Consistency over perfection.**
 
-Strengthen core concepts in React, JavaScript, and frontend development
+---
 
-Improve fluency with Git, GitHub, and Neovim through real usage
+## 📌 Purpose
 
-Maintain a clean, readable, and well-structured codebase
+- Build the habit of coding every day
+- Strengthen core concepts in React and JavaScript
+- Improve frontend development fundamentals
+- Gain real-world fluency with Git, GitHub, and Neovim (LazyVim)
+- Maintain a clean, readable, and well-structured codebase
 
-Each project represents a learning checkpoint, not a finished product.
+Each project represents a **learning checkpoint**, not a finished product.
 
-📂 Repository Structure
+---
 
-Each project lives in its own folder at the root level.
+## 📂 Repository Structure
+
+Each project lives in its **own folder at the root level**.
 
 daily-code-2026/
 ├── even-odd-app/
 ├── cash-withdrawal-app/
 ├── google-search-app/
+├── destination-search-app/
+├── browser-history-app/
+├── letters-calculator-app/
+├── fruits-counter-app/
+├── counter-app/
 └── README.md
 
+### Structure Rules
 
-Structure rules:
+- One folder = one project
+- No shared `node_modules`
+- No generated or build files committed
+- Each project contains its own `README.md`
+- Screenshots (if any) live in a `screenshots/` directory inside the project
 
-One folder = one project
+---
 
-No shared node_modules
+## 🚀 Projects
 
-No generated or build files committed
+### 1. Even Odd App  
+**Folder:** `even-odd-app`
 
-🚀 Projects
-1. Even Odd App
+A simple counter-based React application that:
+- Maintains a numeric count
+- Increments the count by a random value
+- Displays whether the count is even or odd
 
-Folder: even-odd-app
+**Concepts practiced:**
+- State management
+- Derived state
+- Conditional rendering
+- Event handling
 
-A simple React application that:
+---
 
-Maintains a numeric count
+### 2. Cash Withdrawal App  
+**Folder:** `cash-withdrawal-app`
 
-Increments the count by a random value
+A basic ATM-style interface that:
+- Displays a fixed starting balance
+- Allows withdrawals using predefined denominations
+- Updates balance based on user interaction
 
-Displays whether the count is even or odd
+**Concepts practiced:**
+- Parent–child component communication
+- Props and callbacks
+- Immutable state updates
+- Component composition
 
-Concepts practiced:
+---
 
-React state management
+### 3. Google Search Suggestions App  
+**Folder:** `google-search-app`
 
-Conditional rendering
+A Google-style search suggestions interface that:
+- Displays all suggestions initially
+- Filters suggestions in real time (case-insensitive)
+- Updates the input when a suggestion is clicked
 
-Event handling
+**Concepts practiced:**
+- Controlled inputs
+- List filtering and rendering
+- Callback-based state updates
+- Component reuse
 
-Component structure
+---
 
-2. Cash Withdrawal App
+### 4. Destination Search App  
+**Folder:** `destination-search-app`
 
-Folder: cash-withdrawal-app
+An app that:
+- Displays a list of destinations
+- Filters destinations dynamically based on user input
 
-A React application simulating a basic ATM withdrawal interface:
+**Concepts practiced:**
+- Search patterns
+- Props-based data flow
+- List rendering
+- Case-insensitive filtering
 
-Displays user balance
+---
 
-Allows withdrawals using predefined denominations
+### 5. Browser History App  
+**Folder:** `browser-history-app`
 
-Updates balance based on user interaction
+A browser history interface that:
+- Displays a list of visited sites
+- Filters history using search
+- Deletes individual history items
 
-Concepts practiced:
+**Concepts practiced:**
+- List manipulation
+- Controlled inputs
+- Deletion via callbacks
+- State-driven UI updates
 
-Parent–child component communication
+---
 
-Props and callbacks
+### 6. Letters Calculator App  
+**Folder:** `letters-calculator-app`
 
-State updates using previous state
+An app that:
+- Tracks user input
+- Displays the number of letters entered in real time
 
-Component composition
+**Concepts practiced:**
+- Controlled form elements
+- State updates on input change
+- Accessibility basics
 
-3. Google Search Suggestions App
+---
 
-Folder: google-search-app
+### 7. Fruits Counter App  
+**Folder:** `fruits-counter-app`
 
-A Google-style search suggestions interface:
+An application that:
+- Displays counters for different fruits
+- Increments counts based on user interaction
 
-Displays all suggestions initially
+**Concepts practiced:**
+- Event handling
+- Multiple state updates
+- Component-based architecture
 
-Filters suggestions as the user types (case-insensitive)
+---
 
-Clicking a suggestion updates the search input
+### 8. Counter App  
+**Folder:** `counter-app`
 
-Concepts practiced:
+A minimal counter application focused on:
+- Updating numeric state
+- Clean component structure
 
-Controlled inputs
+**Concepts practiced:**
+- State updates
+- Event-driven rendering
+- Unidirectional data flow
 
-List filtering and rendering
+---
 
-Callback-based state updates
+## 🛠️ Tech Stack
 
-Component reuse
+- React (Create React App)
+- JavaScript (ES6+)
+- CSS
+- Git & GitHub
+- Neovim (LazyVim)
 
-🛠️ Tech Stack
+---
 
-React (Create React App, React 18)
+## 📅 Commitment
 
-JavaScript (ES6+)
+- At least **one meaningful commit per day**
+- Small, incremental progress is valid progress
+- Refactoring, cleanup, and documentation updates count
+- Focus is on learning, not rushing completion
 
-CSS
+---
 
-Git & GitHub
+## 📸 Screenshots Policy
 
-Neovim (LazyVim)
+Each project may include a `screenshots/` directory:
 
-📅 Commitment
+screenshots/
+├── desktop.png
+├── mobile.png
+└── demo.gif
 
-At least one meaningful commit per day
+Screenshots are referenced directly in each project’s README and render automatically on GitHub.
 
-Small, incremental progress is encouraged
+---
 
-Refactoring, cleanup, and documentation updates count
+## 🧠 Philosophy
 
-🧠 Philosophy
+> Show up daily.  
+> Keep it simple.  
+> Let consistency compound.
 
-Show up daily.
-Keep it simple.
-Let consistency compound.
+This repository is a **learning log**, not a highlight reel.
 
-This repository is a learning log, not a highlight reel.
+---
 
-📄 Notes
+## 📄 Notes
 
-node_modules are intentionally excluded
+- `node_modules` are intentionally excluded
+- Some projects may be incomplete by design
+- Code quality improves steadily over time
+- Documentation is treated as part of the learning process
 
-Some projects may be incomplete by design
+---
 
-Code quality improves over time as learning progresses
+## 👤 Author
 
-📌 Author
-
-Maintained by Guneshbari
-2026
+Maintained by **Guneshbari**  
+**Daily Code 2026**
