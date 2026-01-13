@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-Browser%20History%20App-brightgreen" />
-  <img src="https://img.shields.io/badge/Focus-Search%20%26%20Delete%20Operations-blue" />
+  <img src="https://img.shields.io/badge/Project-Reviews%20App-brightgreen" />
+  <img src="https://img.shields.io/badge/Focus-State%20Updates%20%26%20Navigation-blue" />
 </p>
 
 A React application that displays user reviews and allows navigation between them.
