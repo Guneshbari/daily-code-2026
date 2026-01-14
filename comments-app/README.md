@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# Comments App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-blue?logo=react" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript" />
+  <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3" />
+  <img src="https://img.shields.io/badge/Create%20React%20App-CRA-lightgrey?logo=createreactapp" />
+</p>
 
-## Available Scripts
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Comments%20App-brightgreen" />
+  <img src="https://img.shields.io/badge/Focus-Forms%20%26%20List%20Management-blue" />
+</p>
 
-In the project directory, you can run:
+A React application that allows users to add comments, display them in a list, and track comment-related metadata.
 
-### `npm start`
+Built as part of **Daily Code 2026**, focusing on form handling, list rendering, and state-driven UI updates.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📑 Contents
 
-### `npm test`
+- Overview  
+- Features  
+- Concepts Practiced  
+- Screenshots  
+- Project Structure  
+- Getting Started  
+- Tech Stack  
+- Notes  
+- Author  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📌 Overview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Comments App enables users to submit comments through a form and view them instantly in a list below.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project reinforces core React patterns such as controlled inputs, list rendering using `map`, and immutable state updates.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ✨ Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Add comments using a form  
+- Display comments in a list  
+- Show comment count  
+- Each comment rendered with a unique key  
+- Instant UI updates on submission  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧠 Concepts Practiced
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Controlled form elements  
+- React state management  
+- List rendering with unique keys  
+- Event handling  
+- Component-based architecture  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🖼️ Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Desktop View](screenshots/desktop.png)  
+![Mobile View](screenshots/mobile.png)  
+![Demo](screenshots/demo.gif)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📁 Project Structure
 
-### Analyzing the Bundle Size
+src/
+├── components/
+│   └── Comments/
+├── App.js
+└── index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🚀 Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Install dependencies:
 
-### Advanced Configuration
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Start the development server:
 
-### Deployment
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Runs at: http://localhost:3000
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🛠️ Tech Stack
+
+- React (Create React App)  
+- JavaScript (ES6+)  
+- CSS  
+- Testing Library  
+- date-fns  
+
+---
+
+## 📌 Notes
+
+- Designed to satisfy strict testing requirements  
+- Focused on correct form handling and list updates  
+- Emphasizes clarity and predictable state changes  
+
+---
+
+## 👤 Author
+
+Built as part of **Daily Code 2026**  
+Maintained by **Guneshbari**
+
