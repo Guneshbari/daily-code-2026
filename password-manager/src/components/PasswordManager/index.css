@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #9ba9eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.password-manager-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.app-logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+/* ---------- ADD PASSWORD CARD ---------- */
+
+.card-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  margin: 20px;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-container {
+  background-color: #454f84;
+  padding: 25px;
+  border-radius: 10px;
+  width: 45%;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.input-container img {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.manager-image {
+  width: 45%;
+}
+
+/* ---------- PASSWORDS SECTION ---------- */
+
+.passwords-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 25px;
+  margin: 20px;
+}
+
+.passwords-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.count {
+  background-color: transparent;
+  border: 1px solid #b6c3ca;
+  border-radius: 10px;
+  padding: 2px 8px;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.search-container img {
+  width: 16px;
+  margin-right: 8px;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 14px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.checkbox-container label {
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+/* ---------- PASSWORD LIST ---------- */
+
+.passwords-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* ---------- NO PASSWORDS VIEW ---------- */
+
+.no-passwords {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.no-passwords img {
+  width: 250px;
+}
+
+.no-passwords p {
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .form-container,
+  .manager-image {
+    width: 100%;
+  }
+
+  .manager-image {
+    margin-top: 20px;
+  }
+}
+
