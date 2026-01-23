@@ -86,7 +86,7 @@ The game ends when the timer reaches zero or an incorrect match is selected.
 
 ![Gameplay View](screenshots/gameplay.png)
 ![Scorecard View](screenshots/scorecard.png)
-![Demo](screenshots/demo.mp4)
+![Demo](screenshots/demo.gif)
 
 ---
 
