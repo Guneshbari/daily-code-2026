@@ -1,70 +1,143 @@
-# Getting Started with Create React App
+# Match Game App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-blue?logo=react" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript" />
+  <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3" />
+  <img src="https://img.shields.io/badge/Create%20React%20App-CRA-lightgrey?logo=createreactapp" />
+</p>
 
-## Available Scripts
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Match%20Game%20App-brightgreen" />
+  <img src="https://img.shields.io/badge/Focus-Timers%20%26%20Game%20Logic-blue" />
+</p>
 
-In the project directory, you can run:
+A fast-paced React game where users match images against thumbnails under time pressure.
 
-### `npm start`
+Built as part of **Daily Code 2026**, focusing on timers, conditional rendering, game-state management, and controlled UI updates.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📑 Contents
 
-### `npm test`
+- Overview
+- Features
+- Game Logic
+- Concepts Practiced
+- Screenshots
+- Project Structure
+- Getting Started
+- Tech Stack
+- Notes
+- Author
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📌 Overview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Match Game challenges users to quickly identify and match images from a set of categorized thumbnails before time runs out.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The game ends when the timer reaches zero or an incorrect match is selected.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ✨ Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Countdown timer starting from 60 seconds
+- Dynamic image matching
+- Category-based tabs
+- Random image generation on correct match
+- Score tracking
+- Game-over scorecard
+- Restart game functionality
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎮 Game Logic
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Initial state:
+  - Score = 0
+  - Time = 60 seconds
+  - Fruits tab active
+- Timer counts down continuously
+- On correct thumbnail match:
+  - Score increments
+  - New image selected randomly
+- On incorrect match or time expiry:
+  - Game ends
+  - Scorecard view is displayed
+- Clicking **PLAY AGAIN**:
+  - Resets score, timer, active tab, and match image
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧠 Concepts Practiced
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- State management for games
+- Timer handling with intervals
+- Conditional rendering
+- Randomized data selection
+- Parent–child component communication
+- Controlled tab-based filtering
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🖼️ Screenshots
 
-### Analyzing the Bundle Size
+![Gameplay View](screenshots/gameplay.png)
+![Scorecard View](screenshots/scorecard.png)
+![Demo](screenshots/demo.mp4)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+src/
+├── components/
+│   ├── MatchGame/
+│   │   ├── index.js
+│   │   └── index.css
+│   ├── TabItem/
+│   ├── ThumbnailItem/
+│   └── ScoreCard/
+├── App.js
+└── index.js
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🚀 Getting Started
 
-### Deployment
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    npm install
 
-### `npm run build` fails to minify
+Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    npm start
+
+Runs at: http://localhost:3000
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Create React App)
+- JavaScript (ES6+)
+- CSS
+
+---
+
+## 📌 Notes
+
+- Timer must stop cleanly on game over
+- Image matching must be exact
+- Tabs filter thumbnails by category
+- Designed to satisfy strict testing requirements
+
+---
+
+## 👤 Author
+
+Built as part of **Daily Code 2026**
+Maintained by **Guneshbari**
+

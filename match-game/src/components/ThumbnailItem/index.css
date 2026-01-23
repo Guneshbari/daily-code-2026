@@ -1,0 +1,14 @@
+.thumbnail-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.thumbnail-btn img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
